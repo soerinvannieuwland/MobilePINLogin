@@ -363,6 +363,8 @@ define([
                 template = template.replace("{{username_caption}}", this.strUsername);
                 template = template.replace("{{password_caption}}", this.strPassword);
                 template = template.replace("{{submit_caption}}", this.strSubmit);
+                template = template.replace("{{forgotPassword_caption}}", this.forgotPasswordCaption);
+                template = template.replace("{{forgotPassword_link}}", this.forgotPasswordLink);
 
                 var domNode = domConstruct.toDom(template);
                 domConstruct.place(domNode, this.domNode);
