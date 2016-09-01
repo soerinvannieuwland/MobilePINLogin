@@ -104,5 +104,19 @@
                 <translation lang="en_US">Login</translation>
             </translations>
         </property>
+        <property key="forgotPasswordCaption" type="translatableString" required="false">
+            <caption>Forgot password caption</caption>
+            <category>Captions</category>
+            <description>Caption of the forgot password link</description>
+            <translations>
+                <translation lang="en_US">Password forgotten?</translation>
+            </translations>
+        </property>
+        <!-- Links -->
+        <property key="forgotPasswordLink" type="string" required="false">
+            <caption>Forgot password link</caption>
+            <category>Links</category>
+            <description>Link to external website where the user can reset his/her password</description>
+        </property>
     </properties>
 </widget>
